@@ -27,7 +27,7 @@ public class DepartmentController {
         return departmentService.fetchDepartmentList();
     }
 
-    // Update operation
+    // Update task
     @PutMapping("/departments/{id}")
     public Department
     updateDepartment(@RequestBody Department department,

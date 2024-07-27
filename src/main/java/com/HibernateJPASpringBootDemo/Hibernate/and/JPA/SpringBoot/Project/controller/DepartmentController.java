@@ -20,7 +20,7 @@ public class DepartmentController {
         return departmentService.saveDepartment(department);
     }
 
-    // Read operation
+    // Get operation
     @GetMapping("/departments")
     public List<Department> fetchDepartmentList()
     {

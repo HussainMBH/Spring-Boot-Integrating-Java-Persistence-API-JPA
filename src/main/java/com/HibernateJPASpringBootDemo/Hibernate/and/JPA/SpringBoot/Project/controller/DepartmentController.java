@@ -45,6 +45,6 @@ public class DepartmentController {
         departmentService.deleteDepartmentById(
                 departmentId);
 
-        return "Deleted Successfully";
+        return "Deleted Successfully....";
     }
 }
